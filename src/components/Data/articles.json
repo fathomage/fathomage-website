@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "type": "Tutorial",
+    "title": "How to quickly deploy a static website",
+    "publish_date": "May 13, 2024",
+    "brief": "Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers influence both web designers and developers.",
+    "description": "Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers influence both web designers and developers. Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers influence both web designers and developers. Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers influence both web designers and developers. Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers influence both web designers and developers. Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers influence both web designers and developers.",
+    "author": "Ariel Duarte",
+    "articleImage": "https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png",
+    "authorImage": "https://media.licdn.com/dms/image/C4D03AQHswFT2GTqHTQ/profile-displayphoto-shrink_400_400/0/1516786084012?e=1721260800&v=beta&t=7NPtXW3X75OOQOlC6AnZKib7wbZRrWgu5kil2JcJRjE"
+  },
+  {
+    "id": 2,
+    "type": "Article",
+    "title": "Serverless",
+    "publish_date": "Apr 25, 2024",
+    "brief": "As a seasoned Java developer with over a decade of experience, I've seen the evolution of cloud computing firsthand. From managing monolithic applications to embracing microservices, the landscape of software development has continuously evolved.",
+    "description": "n this article, I'll delve into why you, as a developer, should seriously consider adopting AWS serverless technology. We'll explore its benefits, real-world examples, and how it can change (for good) the way you build and deploy applications.",
+    "author": "Francisco Saez",
+    "articleImage": "https://tsh.io/wp-content/uploads/2021/02/I1-1-02.2021-serverless-computing.jpg",
+    "authorImage": "https://media.licdn.com/dms/image/C5603AQGOXiEbqimYIA/profile-displayphoto-shrink_400_400/0/1517634490831?e=1721260800&v=beta&t=MAN7p0M7H93L-1XjcX02QCD91d5ig6bItMlqvfZbwqk"
+  }
+]

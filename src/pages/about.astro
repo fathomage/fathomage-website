@@ -1,0 +1,113 @@
+---
+import Container from "../components/Container.astro";
+import Layout from "../layouts/Layout.astro";
+import Team from "../components/Team.astro";
+---
+
+<Layout title="Fathomage Software">
+  <main class="space-y-20">
+    <Container>
+      <div
+        class="relative flex flex-col-reverse items-center md:flex-row"
+        id="hero"
+      >
+        <div class="row items-center py-5 md:pb-20 md:pt-10">
+          <div class="text-center space-y-10">
+            <h2 class="text-5xl font-medium leading-none md:text-6xl">
+              Innovative solutions,<br /> built mindfully
+            </h2>
+
+            <p class="mt-6 mb-8 text-xl font-normal leading-7 sm:mb-12">
+              Fathomage Software - Nearshore software pros to efficiently scale
+              your development team at low cost We are a close-knit team of
+              senior software professionals ready to give you extra capacity for
+              your enterprise software development project.
+            </p>
+
+            <p class="mt-6 mb-8 text-xl font-normal leading-7 sm:mb-12">
+              Boutique, small focused team, tightly-knit, chemistry describe
+              specific comptencies (Spring Boot, OAuth, React, Angular) years of
+              experience industries.
+            </p>
+            <a
+              class="px-9 py-5 bg-zinc-900 hover:bg-white text-white hover:text-black border rounded-2xl justify-items-center md:justify-items-start gap-2.5 inline-flex"
+              rel="noopener noreferrer"
+              href="https://github.com/fathomage"
+              target="_blank"
+            >
+              <h2 class="text-center text-xl font-normal leading-7">
+                Book a consultation
+              </h2>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-row items-center">
+        <div class="grid grid-cols-3 sm:grid-cols-3 md:grid-cols-6">
+          <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0 cursor-pointer">
+            <img
+            src="./clients/10.png"
+            class="h-12 w-auto mx-auto"
+            loading="lazy"
+            alt="client logo"
+            width=""
+            height=""
+          />
+          </div>
+          <div class="p-4 grayscale transition duration-200 hover:grayscale-0 cursor-pointer">
+            <img
+            src="./clients/08.png"
+            class="h-12 w-auto mx-auto"
+            loading="lazy"
+            alt="client logo"
+            width=""
+            height=""
+          />
+          </div>
+           <div class="p-4 grayscale transition duration-200 hover:grayscale-0 cursor-pointer">
+            <img
+              src="./clients/02.svg"
+              class="h-12 w-auto mx-auto"
+              loading="lazy"
+              alt="client logo"
+              width=""
+              height=""
+            />
+          </div>
+          <div class="p-4 grayscale transition duration-200 hover:grayscale-0 cursor-pointer">
+            <img
+              src="./clients/01.svg"
+              class="h-12 w-auto mx-auto"
+              loading="lazy"
+              alt="client logo"
+              width=""
+              height=""
+            />
+          </div>
+          <div class="p-4 flex grayscale transition duration-200 hover:grayscale-0 cursor-pointer">
+            <img
+              src="./clients/07.png"
+              class="h-12 w-auto mx-auto"
+              loading="lazy"
+              alt="client logo"
+              width=""
+              height=""
+            />
+          </div>
+          <div class="p-4 grayscale transition duration-200 hover:grayscale-0 cursor-pointer">
+            <img
+            src="./clients/09.png"
+            class="h-12 w-auto mx-auto"
+            loading="lazy"
+            alt="client logo"
+            width=""
+            height=""
+          />
+          </div> 
+        </div>
+      </div>
+    </Container>
+    <Team />
+  </main>
+</Layout>

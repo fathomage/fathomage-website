@@ -1,0 +1,60 @@
+---
+import Container from "./Container.astro"
+import Topic from "./Topic.astro"
+import Collapse from "./Collapse.astro";
+import teamData from "./Data/team.json";
+---
+<Container>
+<div class="relative flex flex-col items-center md:flex-row" id="projects">
+    <Topic title="Case Studies" description="Explore Real-Life Examples of Our Proven Enterprise Software Development Success through Our Case Studies" />
+</div>
+
+<div class="w-full p-12 bg-zinc-900 rounded-[45px] justify-start items-start gap-16 inline-flex text-white">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-2 divide-x-0 md:divide-x divide-y md:divide-y-0">
+        <div class="flex-col items-start gap-5 inline-flex px-2 md:px-6 py-6 md:py-2">
+            <div class="w-full text-lg font-normal">TechNews is a research platform for marketing teams and executives in the information technology industry.</div>
+            <div class="justify-start items-center gap-[15px] inline-flex">
+                <div class="text-lime text-xl font-normal leading-7">Learn more</div>
+                <img src="/services/agc.svg" alt="arrow">
+            </div>
+        </div>
+        <div class="flex-col items-start gap-5 inline-flex px-2 md:px-6 py-6 md:py-2">
+            <div class="w-full text-lg font-normal">Turnitin is an advance learning with an AI writing detection solution built for educators.</div>
+            <div class="justify-start items-center gap-[15px] inline-flex">
+                <div class="text-lime text-xl font-normal leading-7">Learn more</div>
+                <img src="/services/agc.svg" alt="arrow">
+            </div>
+        </div>
+        <div class="flex-col items-start gap-5 inline-flex px-2 md:px-6 py-6 md:py-2">
+            <div class="w-full text-lg font-normal">Cision is Empowering PR and Marketing Pros to Target, Reach and Engage Their Audiences</div>
+            <div class="justify-start items-center gap-[15px] inline-flex">
+                <div class="text-lime text-xl font-normal leading-7">Learn more</div>
+                <img src="/services/agc.svg" alt="arrow">
+            </div>
+        </div>
+    </div>
+    
+    <!-- <div class="w-[186px] h-[0px] origin-top-left rotate-90 border border-white"></div> -->
+    <!-- <div class="w-[186px] h-[0px] origin-top-left rotate-90 border border-white"></div> -->
+    
+</div>
+<div class="relative flex flex-col items-center md:flex-row my-6">
+    <Topic
+      title="Process"
+      description="Step-by-Step Guide to Achieving Your Business Goals"
+    />
+  </div>
+
+  <div class="my-6">
+    <div class="space-y-10">
+      {
+        teamData.process.map((process, key) => (
+          <Collapse label={process.label} index={key + 1}>
+            {process.content}
+          </Collapse>
+        ))
+      }
+    </div>
+  </div>
+
+</Container>

@@ -1,0 +1,72 @@
+{
+  "team": [
+    {
+      "title": "CEO and Founder",
+      "name": "Travis Carlson",
+      "description": "30+ years of experience as software developer. Proficient in consulting and software architecture",
+      "profile": "https://media.licdn.com/dms/image/C5603AQGintEJRJjb6A/profile-displayphoto-shrink_400_400/0/1516247611875?e=1721260800&v=beta&t=bUgi5P851sB-JapOIBVP3KpPZCdj73jnNJU8NNJuLME",
+      "link": "https://www.linkedin.com/in/tcarlson/"
+    },
+    {
+      "title": "Senior Software Engineer",
+      "name": "Pablo Caravaca",
+      "description": "15+ years of experience in software developing and team leadership. Strong kills in Java application development.",
+      "profile": "https://media.licdn.com/dms/image/C4E03AQHEGyYYPVmBJg/profile-displayphoto-shrink_400_400/0/1553771988353?e=1721260800&v=beta&t=LGByG2y8eV9fJdtCVCbXx6_8w0x0qpaq5M1UKjfJkgA",
+      "link": "https://www.linkedin.com/in/pablogabrielcaravaca/"
+    },
+    {
+      "title": "Senior Solutions Engineer",
+      "name": "Nicolas Gentile",
+      "description": "15+ years of experience in project management and team leadership. Strong organizational and communication skills.",
+      "profile": "https://media.licdn.com/dms/image/C4E03AQEpmADT4koogw/profile-displayphoto-shrink_400_400/0/1517351156052?e=1721260800&v=beta&t=-cRlH5ZqeVYOfCBS3d8FmejGqztKKeDqSZ1M0PswnLQ",
+      "link": "https://www.linkedin.com/in/ariel-nicolas-enriquez-gentile/"
+    },
+    {
+      "title": "Senior QA Lead",
+      "name": "Ariel Seoane",
+      "description": "12+ years of experience as quality assurance engineering lead.",
+      "profile": "https://media.licdn.com/dms/image/C4D03AQE6BT4VGTmABg/profile-displayphoto-shrink_400_400/0/1517448809048?e=1721260800&v=beta&t=QXnE_eB_Yc6jgJpnNriO4zFvbimVdSbc9T8b_toeK9c",
+      "link": "https://www.linkedin.com/in/arielseoane/"
+    },
+    {
+      "title": "Senior Java Developer",
+      "name": "Francisco Saez",
+      "description": "12+ years of experience with a comprehensive background in Java application development.",
+      "profile": "https://media.licdn.com/dms/image/C5603AQGOXiEbqimYIA/profile-displayphoto-shrink_400_400/0/1517634490831?e=1721260800&v=beta&t=MAN7p0M7H93L-1XjcX02QCD91d5ig6bItMlqvfZbwqk",
+      "link": "https://www.linkedin.com/in/saezf/"
+    },
+    {
+      "title": "Senior Software Developer",
+      "name": "Ariel Duarte",
+      "description": "15+ years of experience as Full Stack Software developer.",
+      "profile": "https://media.licdn.com/dms/image/C4D03AQHswFT2GTqHTQ/profile-displayphoto-shrink_400_400/0/1516786084012?e=1721260800&v=beta&t=7NPtXW3X75OOQOlC6AnZKib7wbZRrWgu5kil2JcJRjE",
+      "link": "https://www.linkedin.com/in/arielduarte/"
+    }
+  ],
+  "process": [
+    {
+      "label": "Consultation",
+      "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+    },
+    {
+      "label": "Research",
+      "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+    },
+    {
+      "label": "Implementation",
+      "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+    },
+    {
+      "label": "Optimization",
+      "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+    },
+    {
+      "label": "Reporting",
+      "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+    },
+    {
+      "label": "Improvement",
+      "content": "During the initial consultation, we will discuss your business goals and objectives, target audience, and current marketing efforts. This will allow us to understand your needs and tailor our services to best fit your requirements."
+    }
+  ]
+}
