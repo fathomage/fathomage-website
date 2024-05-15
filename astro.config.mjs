@@ -7,6 +7,8 @@ import rehypePrettyCode from "rehype-pretty-code";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://fathomage.com",
+  outDir: "./docs",
   integrations: [
     tailwind({ applyBaseStyles: false }),
     mdx({

@@ -1,6 +1,8 @@
-# Fathomage Software
+# Fathomage Software - Public Website
 
-Fathomage Software - Nearshore software pros to efficiently scale your development team at low cost We are a close-knit team of senior software professionals ready to give you extra capacity for your enterprise software development project.
+Built with the [Astro](https://astro.build) static site generator.
+
+Based on the [Positivus theme](https://astro.build/themes/details/positivus/).
 
 ## Theme Features
 
@@ -29,10 +31,20 @@ Any static assets, like images, can be placed in the `public/` directory.
 All commands are run from the root of the project, from a terminal:
 
 | Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
+|:--------------------------|:-------------------------------------------------|
 | `npm install`             | Installs dependencies                            |
 | `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run build`           | Build your production site to `./docs/`          |
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## Deployment
+
+The site is deployed with GitHub Pages, based on the `/docs` directory.
+Therefore `./docs` is set as the build directory in `astro.config.mjs`
+
+Note that GitHub Pages will ignore the `_astro` directory unless [a `.nojekyll` file is present](https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/).
+
+For domain configuration, refer to:
+https://deanattali.com/blog/multiple-github-pages-domains/
