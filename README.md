@@ -34,17 +34,15 @@ All commands are run from the root of the project, from a terminal:
 |:--------------------------|:-------------------------------------------------|
 | `npm install`             | Installs dependencies                            |
 | `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./docs/`          |
+| `npm run build`           | Build your production site to `./dist/`          |
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
 ## Deployment
 
-The site is deployed with GitHub Pages, based on the `/docs` directory.
-Therefore `./docs` is set as the build directory in `astro.config.mjs`
+The static site is hosted by GitHub Pages, based on the `/dist` output directory.  
 
-Note that GitHub Pages will ignore the `_astro` directory unless [a `.nojekyll` file is present](https://github.blog/2009-12-29-bypassing-jekyll-on-github-pages/).
+Continuous Deployment is configured in [GitHub Actions](https://github.com/fathomage/fathomage-website/actions).  
 
-For domain configuration, refer to:
-https://deanattali.com/blog/multiple-github-pages-domains/
+For domain configuration, refer to: https://deanattali.com/blog/multiple-github-pages-domains/
