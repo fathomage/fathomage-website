@@ -13,7 +13,8 @@ export default {
 		white: "#FFFFFF",
 		gray: "#0D0C22",
 		stone: "#231F20",
-		lime: "#B9FF66",
+		lime: "#66fffa",
+		// lime: "#B9FF66",
 		zinc: {
 		  100: "#F3F3F3",
 		  200: "#F0F0F0",

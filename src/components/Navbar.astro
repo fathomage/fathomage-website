@@ -1,18 +1,17 @@
 ---
 // Define your navigation links here
 const navLinks = [
-  { href: "/#services", label: "What We Do" },
-  { href: "/#projects", label: "Our Work" },
-  { href: "/blog", label: "Insights" },
-  // { href: "/pricing", label: "Pricing" },
+  { href: "/#services", label: "Services" },
+  { href: "/blog", label: "Articles" },
   { href: "/about", label: "About us" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 import Container from "./Container.astro";
 ---
 
 <header class="mt-20">
-  <nav class="w-full top-0 left-0 z-50 fixed bg-white">
+  <nav class="w-full top-0 left-0 z-50 fixed bg-zinc-100">
     <Container>
       <div class="flex flex-wrap items-center justify-between mx-auto py-3">
         <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
@@ -43,7 +42,7 @@ import Container from "./Container.astro";
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul
-            class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white"
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0"
           >
             {
               navLinks.map((link) => (
@@ -57,23 +56,23 @@ import Container from "./Container.astro";
                 </li>
               ))
             }
-            <li>
-              <a
-                class="md:hidden px-9 py-5 rounded-2xl border border-zinc-900 bg-white hover:bg-black text-black hover:text-white inline-flex"
-                href="/contactus"
-                target="_blank"
-              >
-                <h2 class="text-center text-xl font-normal leading-7">
-                  Contact Us
-                </h2>
-              </a>
-            </li>
+            <!--<li>-->
+            <!--  <a-->
+            <!--    class="md:hidden px-9 py-5 rounded-2xl border border-zinc-900 bg-white hover:bg-black text-black hover:text-white inline-flex"-->
+            <!--    href="/contactus"-->
+            <!--    target="_blank"-->
+            <!--  >-->
+            <!--    <h2 class="text-center text-xl font-normal leading-7">-->
+            <!--      Contact Us-->
+            <!--    </h2>-->
+            <!--  </a>-->
+            <!--</li>-->
           </ul>
         </div>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
           <a
             class="px-5 py-3 rounded-2xl border border-zinc-900 bg-white hover:bg-black text-black hover:text-white inline-flex"
-            href="/contactus"
+            href="/#contact"
             ><h2 class="text-center text-xl font-normal leading-7">
               Contact Us
             </h2>

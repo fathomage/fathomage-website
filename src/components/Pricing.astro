@@ -1,0 +1,40 @@
+---
+import Container from "./Container.astro"
+import Topic from "./Topic.astro";
+import servicesData from './Data/services.json';
+---
+<Container>
+<div class="relative flex flex-col items-center md:flex-row" id="services">
+    <Topic title="Services" description="Not an exhaustive list, but some things we could do for you">
+</div>
+
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+        <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+            <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-3xl border border-gray-100 shadow-card ">
+                <h3 class="mb-4 text-2xl font-semibold">Fractional CTO or Architect</h3>
+                <p class="font-light text-gray-500 sm:text-lg">Strategic technical leadership and architectural guidance on a part-time basis.</p>
+            </div>
+            <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-3xl border border-gray-100 shadow-card ">
+                <h3 class="mb-4 text-2xl font-semibold">Software Design & Consulting</h3>
+                <p class="font-light text-gray-500 sm:text-lg">Experienced pros conceptualize, plan, and design software solutions to address the unique challenges of your business.</p>
+            </div>
+            <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-3xl border border-gray-100 shadow-card ">
+                <h3 class="mb-4 text-2xl font-semibold">Software Development</h3>
+                <p class="font-light text-gray-500 sm:text-lg">Skilled developers use industry best practices to implement your project with efficiency, quality, and no surprises.</p>
+            </div>
+            <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-3xl border border-gray-100 shadow-card ">
+                <h3 class="mb-4 text-2xl font-semibold">Staff Augmentation</h3>
+                <p class="font-light text-gray-500 sm:text-lg">Source the quality personnel you need in order to scale your existing team.</p>
+            </div>
+            <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-3xl border border-gray-100 shadow-card ">
+                <h3 class="mb-4 text-2xl font-semibold">Code Review & Audit</h3>
+                <p class="font-light text-gray-500 sm:text-lg">Audit the robustness, security, and performance of your codebase with detailed recommendations for improvement.</p>
+            </div>
+            <div class="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-3xl border border-gray-100 shadow-card ">
+                <h3 class="mb-4 text-2xl font-semibold">QA Automation</h3>
+                <p class="font-light text-gray-500 sm:text-lg">Improve or create automated test coverage of your codebase using industry best practices and tools.</p>
+            </div>
+        </div>
+    </div>
+
+</Container>
