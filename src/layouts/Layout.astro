@@ -14,12 +14,17 @@ import { ViewTransitions } from 'astro:transitions';
     <link rel="icon" type="image/svg+xml" href="/favicon.png" />
     <meta name="generator" content={Astro.generator} />
     <title>Fathomage Software</title>
-    <meta
-      name="description"
-      content="Fathomage Software - Nearshore software pros to efficiently scale your development team at low cost We are a close-knit team of senior software professionals ready to give you extra capacity for your enterprise software development project."
-    />
-	<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-  <ViewTransitions />
+	  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KR7DFE5KR2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-KR7DFE5KR2');
+    </script>
+    <ViewTransitions />
   </head>
   <body class="bg-white font-SpaceGrotesk">
     <Navbar />
