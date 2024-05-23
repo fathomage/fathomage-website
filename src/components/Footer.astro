@@ -2,19 +2,21 @@
 import Container from "./Container.astro";
 ---
 
-<footer class="bg-lime bg-fixed bg-bottom text-black">
+<footer class="bg-gradient-to-r from-zinc-200 to-lime bg-fixed bg-bottom text-black">
   <Container>
     <div class="py-6">
       <div class="flex flex-col items-center justify-between lg:flex-row">
-        <div class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img class="h-20" src="/Logo.png" alt="Logo" />
+        <div class="flex items-center space-x-3 rtl:space-x-reverse text-2xl px-10">
+          <a href="mailto:info@fathomage.com">info@fathomage.com</a>
+          <!--<img class="h-20" src="/Logo.png" alt="Logo" />-->
         </div>
         <div class="flex items-center space-x-3 rtl:space-x-reverse text-2xl">
-          <a href="mailto:info@fathomage.com">info@fathomage.com</a>
+          <!--<a href="mailto:info@fathomage.com">info@fathomage.com</a>-->
         </div>
-        <div class="flex mt-4 lg:m-0">
+        <div class="flex mt-4 lg:m-0 px-10">
           <div class="-mx-4">
-            @ 2024</span> Fathomage Software
+            <img class="h-20" src="/LogoText.svg" alt="Logo" />
+            <!--@ 2024</span> Fathomage Software-->
           </div>
         </div>
       </div>
