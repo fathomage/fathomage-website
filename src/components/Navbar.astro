@@ -2,20 +2,21 @@
 // Define your navigation links here
 const navLinks = [
   { href: "/#services", label: "Services" },
-  { href: "/blog", label: "Articles" },
-  { href: "/about", label: "About us" },
+  // { href: "/blog", label: "Articles" },
+  // { href: "/about", label: "About us" },
+  { href: "/#expertise", label: "About us" },
   { href: "/#contact", label: "Contact" },
 ];
 
 import Container from "./Container.astro";
 ---
 
-<header class="mt-20">
-  <nav class="w-full top-0 left-0 z-50 fixed bg-white">
+<header class="py-10 lg:py-20">
+  <nav class="w-full top-0 left-0 z-50 fixed bg-zinc-900">
     <Container>
       <div class="flex flex-wrap items-center justify-between mx-auto py-3">
-        <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="/Logo.png" class="h-20" alt="Logo" />
+        <a href="/" class="hidden lg:flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="/Logo.svg" class="h-20" alt="Logo" />
         </a>
         <button
           data-collapse-toggle="navbar-default"
@@ -40,25 +41,25 @@ import Container from "./Container.astro";
               d="M1 1h15M1 7h15M1 13h15"></path>
           </svg>
         </button>
-        <!--<div class="hidden w-full md:block md:w-auto" id="navbar-default">-->
-        <!--  <ul-->
-        <!--    class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0"-->
-        <!--  >-->
-        <!--    {-->
-        <!--      navLinks.map((link) => (-->
-        <!--        <li>-->
-        <!--          <a-->
-        <!--            href={link.href}-->
-        <!--            class="lg:text-xl block py-2 px-3 text-black rounded md:bg-transparent md:p-0"-->
-        <!--          >-->
-        <!--            {link.label}-->
-        <!--          </a>-->
-        <!--        </li>-->
-        <!--      ))-->
-        <!--    }-->
-        <!--  </ul>-->
-        <!--</div>-->
-        <div class="hidden w-full lg:block md:w-auto" id="navbar-default">
+        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+          <ul
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0"
+          >
+            {
+              navLinks.map((link) => (
+                <li>
+                  <a
+                    href={link.href}
+                    class="lg:text-xl block py-2 px-3 text-white rounded md:bg-transparent md:p-0"
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+        <div class="hidden w-full xl:block md:w-auto" id="navbar-default">
           <a
             class="px-5 py-3 rounded-2xl border border-zinc-900 bg-white hover:bg-black text-black hover:text-white inline-flex"
             href="/#contact"
