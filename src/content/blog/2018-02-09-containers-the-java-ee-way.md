@@ -2,11 +2,9 @@
 title: 'An interview with Sebastian Daschner, Java Community Process member'
 image: "/wp-content/uploads/2018/02/javaee.png"
 tags: [
-  "Containers",
-  "Docker",
   "Java",
-  "Podcast",
-  "Spring"
+  "Spring",
+  "Docker"
 ]
 pubDate: 2018-02-09
 author: "Travis Carlson"
