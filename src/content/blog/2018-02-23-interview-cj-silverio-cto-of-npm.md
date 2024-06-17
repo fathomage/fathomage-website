@@ -1,14 +1,7 @@
 ---
 title: 'An interview with CJ Silverio about the Node.js Package Manager'
 image: "/wp-content/uploads/2018/02/1200px-Npm-logo.svg_-e1519675536870.png"
-tags: [
-      "Architecture",
-      "Containers",
-      "Infrastructure",
-      "Javascript",
-      "Microservices",
-      "NodeJS"
-  ]
+tags: ["NodeJS","Javascript","Infrastructure"]
 pubDate: 2018-02-23
 author: "Travis Carlson"
 profile: "/team/travis.jpg"

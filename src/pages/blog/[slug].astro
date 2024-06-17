@@ -23,17 +23,19 @@ export const prerender = true;
         <Container>
             <section class="bg-white">
                     <div class="font-light text-gray-500 sm:text-lg">
-                        <div class="flex justify-between items-center mb-6">
-                            <div class="flex items-center space-x-4">
+                        <div class="flex justify-end items-center mb-6">
+                            <div class="flex items-center space-x-4 mr-5">
                               <img class="w-7 h-7 rounded-full" src={post.data.profile} alt={post.data.author + " cover"} />
                               <span class="font-medium">
                                   {post.data.author}
                               </span>
                             </div>
+                          <div>
                             <Date date={post.data.pubDate} />
+                          </div>
                         </div>
                         <img class="max-h-32 mb-5" src={post.data.image} alt="Article image" />
-                        <span class="prose">
+                        <span class="prose font-sans">
                             <Content />
                         </span>
                     </div>
