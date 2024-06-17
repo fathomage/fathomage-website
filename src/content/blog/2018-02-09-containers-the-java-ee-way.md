@@ -1,5 +1,5 @@
 ---
-title: 'An interview with Sebastian Daschner, JCP member and Java EE champion'
+title: 'An interview with Sebastian Daschner, Java Community Process member'
 image: "/wp-content/uploads/2018/02/javaee.png"
 tags: [
   "Containers",

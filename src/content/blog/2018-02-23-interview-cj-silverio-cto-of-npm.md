@@ -1,5 +1,5 @@
 ---
-title: 'An interview with CJ Silverio, discussing the Node.js Package Manager'
+title: 'An interview with CJ Silverio about the Node.js Package Manager'
 image: "/wp-content/uploads/2018/02/1200px-Npm-logo.svg_-e1519675536870.png"
 tags: [
       "Architecture",

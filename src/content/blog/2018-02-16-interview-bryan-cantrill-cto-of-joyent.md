@@ -1,5 +1,5 @@
 ---
-title: 'Interview with Bryan Cantrill, CTO of Joyent'
+title: 'An interview with Bryan Cantrill, CTO of Joyent'
 image: "/wp-content/uploads/2018/02/L3CnsFFWx4OJFUp2C7uUWA-joyentLogo-e1519674835600.png"
 tags: [
   "AWS",

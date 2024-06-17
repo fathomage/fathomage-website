@@ -1,0 +1,9 @@
+---
+const dateOptions: object = {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+};
+const { date } = Astro.props;
+---
+{date.toLocaleDateString("en-US", dateOptions)}

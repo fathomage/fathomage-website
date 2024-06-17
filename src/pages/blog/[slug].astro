@@ -3,6 +3,7 @@ import Container from "../../components/Container.astro"
 import Layout from '../../layouts/Layout.astro';
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
+import Date from "../../components/Date.astro";
 
 interface Props {
     post: CollectionEntry<'blog'>;
@@ -29,12 +30,12 @@ export const prerender = true;
                                   {post.data.author}
                               </span>
                             </div>
-                            <span class="text-sm">{post.data.pubDate}</span>
+                            <Date date={post.data.pubDate} />
                         </div>
-                        <aricle class="prose">
+                        <img class="max-h-32 mb-5" src={post.data.image} alt="Article image" />
+                        <span class="prose">
                             <Content />
-                        </aricle>
-                       
+                        </span>
                     </div>
             </section>
         </Container>
