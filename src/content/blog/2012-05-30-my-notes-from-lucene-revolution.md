@@ -5,7 +5,6 @@ pubDate: 2012-05-30
 author: "Travis Carlson"
 profile: "/team/travis.jpg"
 type: "Article"
-brief: "Instructions for configuring swap memory on an EC2 instance"
 tags: ["Machine Learning","Solr"]
 ---
 My notes and brainstorming from the <a href="http://lucenerevolution.org/past-events/" target="_blank">Lucene Revolution</a> conference in Cambridge, MA
