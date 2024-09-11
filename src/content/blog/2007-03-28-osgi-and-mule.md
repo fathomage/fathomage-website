@@ -6,6 +6,6 @@ author: "Travis Carlson"
 profile: "/team/travis.jpg"
 type: "Presentation"
 tags: ["OSGi","Mule"]
-brief: Presentation from MuleCon
+brief: Presentation from the MuleCon conference
 ---
 <a href="http://www.slideshare.net/ceefour/muleandos-gi-traviscarlson" target="_blank">OSGi and Mule</a> - Presentation at MuleCon 2007
